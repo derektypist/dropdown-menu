@@ -21,6 +21,7 @@ body, html {
     position: relative;
     top: 300px;
 }
+
 .navDefault {
     position: fixed;
     top: 0;
@@ -91,22 +92,19 @@ button {
     transform: translateY(0);
 }
 
-.myParagraph {
-    margin-left: 300px;
-}
 
 h1 {
-    font-family: 'Calibri', Arial, Verdana, sans-serif;
+    font-family: "Calibri", Arial, Verdana, sans-serif;
     color: purple;
     text-align: center;
 }
 
 p {
-    font-family: 'Calibri', Arial, Verdana, sans-serif;
+    font-family: "Calibri", Arial, Verdana, sans-serif;
     color: blue;
 }
 
 .listItem {
-    font-family: 'Calibri', Arial, Verdana, sans-serif;
+    font-family: "Calibri", Arial, Verdana, sans-serif;
     color: green;
 }
