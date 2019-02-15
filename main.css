@@ -1,0 +1,112 @@
+body, html {
+    height: 100%;
+    font-family: 'Calibri', Arial, Verdana, sans-serif;
+    margin: 0;
+}
+
+.main {
+    height: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 230px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: orange;
+}
+
+.section {
+    position: relative;
+    top: 300px;
+}
+.navDefault {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #4a4a4f
+}
+
+button {
+    border: none;
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.dropdownMenu {
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    text-align: center;
+    left: 0;
+    top: 50px;
+    right: 0;
+    width: 150px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    transition: transform 1s ease-in-out;
+    z-index: -1;
+}
+
+.dropdownItem {
+    font-family: 'Calibri', Arial, Verdana, sans-serif;
+}
+
+.dropdownLink {
+    text-decoration: none;
+    display: block;
+    background-color: #f9f9f9;
+    color: #4f4f4f;
+    padding: 10px 5px;
+    transition: background-color 1s ease-in color 1s ease-in;
+}
+
+.active {
+    background-color: green;
+    color: orange;
+}
+
+.dropdownLink:hover:not(.active) {
+    background-color: purple;
+    color: white;
+}
+
+.dropdown {
+    width: 150px;
+    position: relative;
+}
+
+.dropdown:hover button {
+    background-color: #018ce5;
+}
+
+.dropdown:hover .dropdownMenu {
+    transform: translateY(0);
+}
+
+.myParagraph {
+    margin-left: 300px;
+}
+
+h1 {
+    font-family: 'Calibri', Arial, Verdana, sans-serif;
+    color: purple;
+    text-align: center;
+}
+
+p {
+    font-family: 'Calibri', Arial, Verdana, sans-serif;
+    color: blue;
+}
+
+.listItem {
+    font-family: 'Calibri', Arial, Verdana, sans-serif;
+    color: green;
+}
