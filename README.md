@@ -6,6 +6,6 @@
  
  The hovered page has a purple background colour and white text.
  
- Four web pages - indes (home), computing, sports and celebrities.
+ Four web pages - index (home), computing, sports and celebrities.
  
  
