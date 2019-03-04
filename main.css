@@ -1,12 +1,22 @@
+/* Import Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Body and HTML */
+
 body, html {
     height: 100%;
     font-family: "Calibri", Arial, Verdana, sans-serif;
     margin: 0;
 }
 
+/* Main */
+
 .main {
     height: 100%;
 }
+
+/* Header */
 
 .header {
     position: fixed;
@@ -17,10 +27,14 @@ body, html {
     background-color: orange;
 }
 
+/* Section */
+
 .section {
     position: relative;
     top: 300px;
 }
+
+/* Navigation */
 
 .navDefault {
     position: fixed;
@@ -56,9 +70,13 @@ button {
     z-index: -1;
 }
 
+/* Dropdown Item */
+
 .dropdownItem {
-    font-family: "Calibri", Arial, Verdana, sans-serif;
+    font-family: "Roboto", Arial, Verdana, sans-serif;
 }
+
+/* Dropdown Links */
 
 .dropdownLink {
     text-decoration: none;
@@ -79,6 +97,8 @@ button {
     color: white;
 }
 
+/* Dropdown */
+
 .dropdown {
     width: 150px;
     position: relative;
@@ -93,18 +113,24 @@ button {
 }
 
 
+/* Heading H1 */
+
 h1 {
-    font-family: "Calibri", Arial, Verdana, sans-serif;
+    font-family: "Roboto", Arial, Verdana, sans-serif;
     color: purple;
     text-align: center;
 }
 
+/* Paragraph */
+
 p {
-    font-family: "Calibri", Arial, Verdana, sans-serif;
+    font-family: "Roboto", Arial, Verdana, sans-serif;
     color: blue;
 }
 
+/* List Items */
+
 .listItem {
-    font-family: "Calibri", Arial, Verdana, sans-serif;
+    font-family: "Roboto", Arial, Verdana, sans-serif;
     color: green;
 }
