@@ -1,4 +1,4 @@
- Welcome to dropdowns
+ Welcome to dropdowns (non-Bootstrap version)
  
  Hover effects in dropdowns as well as the active page.
  
